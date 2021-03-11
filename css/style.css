@@ -7,6 +7,11 @@ p {
   font-family: Poppins, sans-serif;
 }
 
+.inline-block{
+  display:inline-block;
+  vertical-align: top;
+}
+
 /* Header-Nav Section*/
 header{
   display:inline
@@ -17,7 +22,17 @@ header{
   color: #111035;
   font-family:poppins;
 }
+.Logo{
+  width: 23%;
+  padding: 1%;
+  text-align: center;
+}
+nav{
+  width: 73%;
+  padding: 1%;
+}
 
+}
 .leftNav{
   display:flex;
   float:left;
@@ -29,10 +44,11 @@ header{
   display:flex;
 }
 .rightNav ul{
+  width:50%;
+  margin-left:auto;
   font-size:24px;
   font-weight:600px;
   list-style-type:none;
-  margin:0;
   padding:0;
   overflow:hidden;
 }
@@ -51,8 +67,12 @@ header{
   background-color: #111035;
   height: 680px;
   width:100%;
+  padding 25px;
 }
-
+.content{
+  width: 500px;
+  margin: 0 auto;
+}
 .heroSection p{
   color:#ff6f00;
   font-size: 56px;
@@ -106,7 +126,7 @@ button:hover{
   display:inline-block;
   font-size: 36px;
   font-family:poppins;
-  font-weight:900
+  font-weight:900px
 }
 /* Content Section*/
 
@@ -115,23 +135,26 @@ footer{
   display:inline-block;
   position: relative;
   color:white;
-  background-color: #111035;
+  background-color: #373738;
   width:100%;
   height: 256px;
 }
 
 footer ul{
+  display:inline-block;
+  vertical-align: top;
   font-size:24px;
   font-weight:600px;
   font-family: poppins;
   list-style-type:none;
-  margin:0px;
+  margin:16px;
   padding:0px;
   overflow:hidden;
 }
 
 footer li{
   float: left;
+  padding: 16px;
 }
 
 footer li:hover{
