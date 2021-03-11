@@ -1,3 +1,4 @@
+/* Page Info*/
 h1 {
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
@@ -6,6 +7,7 @@ p {
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
+/* Header-Nav Section*/
 header{
   display:inline
   margin:8px 0;
@@ -21,16 +23,30 @@ header{
   float:left;
 }
 
+}
 .rightNav{
   display:inline
   float:right;
 }
 
+/* Hero Section*/
 .heroSection{
   display:inline-block;
   background-color: #111035;
   height: 900px;
   width:100%;
+}
+
+.heroSection p{
+  color:#ff6f00;
+  font-size: 56px;
+  font-family: anton;
+}
+
+.heroSection h1{
+  color:white;
+  font-size: 56px;
+  font-family: anton;
 }
 
 .heroLeft{
@@ -40,3 +56,7 @@ header{
 .heroRight{
   float:right;
 }
+
+/* Content Section*/
+
+/* Footer Section*/
