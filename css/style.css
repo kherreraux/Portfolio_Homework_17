@@ -61,7 +61,7 @@ header{
 
 /* Footer Section*/
 footer{
-  display:inline-block
+  display:inline-block;
   color:white;
   background-color: #111035;
   width:100%;
