@@ -56,7 +56,15 @@ header{
 .heroRight{
   float:right;
 }
-
+.contact{
+  display:block
+}
 /* Content Section*/
 
 /* Footer Section*/
+footer{
+  color:white;
+  background-color: #111035;
+  width:100%;
+  height:64px;
+}
