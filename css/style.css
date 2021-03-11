@@ -1,10 +1,10 @@
 /* Page Info*/
 h1 {
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 p {
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 /* Header-Nav Section*/
@@ -19,12 +19,14 @@ header{
 }
 
 .leftNav{
+  display:flex;
   float:left;
 }
 
 }
 .rightNav{
   float:right;
+  display:flex;
 }
 .rightNav ul{
   font-size:24px;
@@ -57,6 +59,7 @@ header{
   font-family: anton;
   letter-spacing:6px;
   margin-left:72px;
+  width: 400px;
 }
 
 .heroSection h1{
@@ -65,6 +68,7 @@ header{
   font-family: anton;
   letter-spacing:6px;
   margin-left:72px;
+  width: 400px;
 }
 
 .heroLeft{
@@ -80,7 +84,7 @@ header{
 button{
   background-color:white;
   color:#111035;
-  border: 3px;
+  border: 3px solid #111035;
   border-radius: 20px;
   padding:15px 32px;
   text-align:center;
@@ -88,13 +92,13 @@ button{
   display:inline-block;
   font-size: 36px;
   font-family:poppins;
-  font-weight:700px;
+  font-weight:900px;
 }
 
 button:hover{
   background-color:#ff6f00;
   color:white;
-  border: 3px;
+  border: 3px solid white;
   border-radius: 20px;
   padding:15px 32px;
   text-align:center;
@@ -113,7 +117,7 @@ footer{
   color:white;
   background-color: #111035;
   width:100%;
-  height: 192px;
+  height: 256px;
 }
 
 footer ul{
