@@ -19,12 +19,17 @@ header{
 }
 
 .leftNav{
+  display:inline-block
   float:left;
 }
 
 }
 .rightNav{
   float:right;
+}
+.rightNav ul{
+  font-size:24px;
+  font-weight:600px;
 }
 
 /* Hero Section*/
