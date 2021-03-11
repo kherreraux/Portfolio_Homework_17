@@ -19,13 +19,11 @@ header{
 }
 
 .leftNav{
-  display:inline
   float:left;
 }
 
 }
 .rightNav{
-  display:inline
   float:right;
 }
 
@@ -63,6 +61,7 @@ header{
 
 /* Footer Section*/
 footer{
+  display:inline-block
   color:white;
   background-color: #111035;
   width:100%;
